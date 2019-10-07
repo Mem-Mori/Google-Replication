@@ -1,0 +1,449 @@
+<!-- My First Creation - Replicating Google.com Seacrh Results Page -->
+<!-- Google Search Results Page | https://www.google.com/search?source=hp&ei=j4hWXfy6E4mctAXW4I2wDg&q=The+Odin+Project&oq=The+Odin+Project&gs_l=psy-ab.3..35i39l2j0l8.6123.10042..10240...0.0..0.159.1412.15j2......0....1..gws-wiz.......0i131j0i10.I3WD7lfBaCU&ved=0ahUKEwi8vvOpmofkAhUJDq0KHVZwA-YQ4dUDCAc&uact=5 -->
+
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/SearchResultsPage" lang="en">
+
+<head>
+    <title>The Odin Project - Google Search</title>
+    <link rel="icon" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">    
+</head>
+
+<body>
+
+<!-- Search Bar and Navigation -->
+
+    <nav>
+        <div class="search_cont">
+            <a href="https://www.google.com" title="Go to Google Home" id="logo"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo in Color" id="google"></a>
+            <form action="#" method="GET" id="search_bar">
+                <input id="search_entry" type="search" name="search" value="The Odin Project" title="Search">
+                <img id="voice2" title="Search by Voice" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
+                <button id="search-b">
+                    <svg class="mag-glass">
+                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div class="google_menu" title="Google Apps">
+            <svg class="menu">
+                <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+            </svg>
+            <img id="profile_pic" title="Google Account: Samuel L Jackson" src="..\Google Replication\data\c0Ec2mTU.jpg">
+        </div>
+        <div class="navbar">
+            <div id="navmain">
+                <a href="all" id="all" class="navlink" role="button">
+                    <img src="..\Google Replication\data\mag.png" class="navimg">
+                    All</a>
+                <a href="news" id="news" class="navlink" role="button">News</a>
+                <a href="videos" id="videos" class="navlink" role="button">Videos</a>
+                <a href="images" id="images" class="navlink" role="button">Images</a>
+                <a href="shopping" id="shopping" class="navlink" role="button">Shopping</a>
+                <a href="more" id="more" class="navlink" role="button">More</a>
+            </div>
+            <div id="navset">
+                <a href="settings" id="settings" class="navlink" role="button">Settings</a>
+                <a href="tools" id="tools" class="navlink" role="button">Tools</a>
+            </div>            
+        </div>
+        <span id="borderline"></span>
+    </nav>
+
+
+    <div id="middle">
+
+        <!-- Main Search Results -->
+
+        <div id="main">
+
+            <p id="results">About 16,400,000 results (0.64 seconds)</p>
+
+            <div class="element" id="topelement">
+                <div class="result_link">
+                    <a href="#">
+                        <h3 class="site_title">The Odin Project: Your Career in Web Development Starts Here</h3>
+                        <p class="site_address">https://www.theodinproject.com</p>
+                    </a>
+                </div>
+                <div class="result_info">
+                    <p><strong>The Odin Project</strong> empowers aspiring web developers to learn together.</p>
+                </div>
+                <table class="more_results">
+                    <tbody>
+                        <tr>
+                            <td class="additional">
+                                <a href="#"><h3>Courses</h3></a>
+                                <p class="result_info">Web Develpoment - Javascript - Ruby Programming - Databases</p>
+                            </td>
+                            <td class="additional">
+                                <a href="#"><h3>FAQ</h3></a>
+                                <p class="result_info">The Odin Project empowers aspiring web developers to ...</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="additional">
+                                <a href="#"><h3>Web Development 101</h3></a>
+                                <p class="result_info">1. Installation Overview - HTML and CSS Basics - HTML/CSS</p>
+                            </td>
+                            <td class="additional">
+                                <a href="#"><h3>About</h3></a>
+                                <p class="result_info">The Odin Project is one of thoe "What I wish I had when I was ...</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="additional">
+                                <a href="#"><h3>Project Odin</h3></a>
+                                <p class="result_info">The Odin Project empowers aspiring web developers to ...</p>
+                            </td>
+                            <td class="additional">
+                                <a href="#"><h3>JavaScript course</h3></a>
+                                <p class="result_info">Library - Final Project - Tic Tac Toe - React - Restaurant Page - Vue</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ask_more" colspan="2">
+                                <a href="#" id="more_results">More results from theodinprojet.com »</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="element">
+                <div class="result_link">
+                    <a href="#">
+                        <h3 class="site_title">Getting started and forging a plan - The Odin Project - Medium</h3>
+                        <p class="site_address">https://medium.com/the-odin-project/my-path-to-web-development-part1-...</p>
+                    </a>
+                </div>
+                <div class="result_info">
+                    <p>May 26, 2017 - I clicked on it and Discovered <strong>The Odin Project</strong>. Yes, another website where you can learn to code for free. I went and checked it out and was ...</p>
+                </div>
+            </div>
+
+            <div class="people_ask">
+                <h2 id="people1">People also ask</h2>
+                <div>
+                    <a href="#" class="ask"><p class="ask" style="padding-left: 14px;">Is the Odin Project free?</p></a>
+                    <img class="chevron" src="..\Google Replication\data\chevron.png">
+                </div>
+                <div>
+                    <a href="#" class="ask"><p class="ask" style="padding-left: 14px;">What are the basics of Web Development?</p></a>
+                    <img class="chevron" src="..\Google Replication\data\chevron.png">            
+                </div>
+                <div>
+                    <a href="#" class="ask"><p class="ask" style="padding-left: 14px;">How long does it take to learn web development?</p></a>
+                    <img class="chevron" src="..\Google Replication\data\chevron.png">    
+                </div>        
+                <div>
+                    <a href="#" class="ask"><p class="ask" style="padding-left: 14px;">What is Ruby used for?</p></a>
+                    <img class="chevron" src="..\Google Replication\data\chevron.png">
+                </div>
+            </div>
+
+            <div class="feedback">
+                <a href="#" id="feedback">Feedback</a>
+            </div>
+
+            <div class="element">
+                <div class="result_link">
+                    <a href="#">
+                        <h3 class="site_title" style="padding-top: 20px">Anyone have any experience learning with The Odin Project ...</h3>
+                        <p class="site_address">https://www.reddit.com/.../anyone_have_any_experience_learning_with_th...</p>
+                    </a>
+                </div>
+                <div class="result_info">
+                    <p>Welcome to LearnProgramming! ... This ias a subreddit for learning programming, not a "critique my <strong>project</strong>" or "advertise my <strong>project</strong>" subreddit. ... I've tried codeacademy, freecodecamp and <strong>the</strong> complete web developer course on Udemy and have grasped html and css quite well.</p>
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="result_link">
+                    <a href="#">
+                        <h3 class="site_title">Can't recommend The Odin Project enough : learnprogramming ...</h3>
+                        <p class="site_address">https://www.reddit.com › learnprogramming › comments › cant_recomme...
+                        </p>
+                    </a>
+                </div>
+                <div class="result_info">
+                    <p><strong>The Odin Project</strong> makes you set up an actual enviroment on your computer where you learn how to actually write code. All the learning and projects will be ...</p>
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="result_link">
+                    <a href="#">
+                        <h3 class="site_title">The Odin Project (@TheOdinProject) | Twitter</h3>
+                        <p class="site_address">https://twitter.com › theodinproject
+                        </p>
+                    </a>
+                </div>
+                <div class="result_info">
+                    <p>The latest Tweets from <strong>The Odin Project</strong> (@<strong>TheOdinProject</strong>). An open source online cirriculum for learning web development. We help our students learn the ...</p>
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="result_link">
+                    <a href="#">
+                        <h3 class="site_title">The Odin Project Reviews | SwitchUp</h3>
+                        <p class="site_address">https://www.switchup.org › bootcamps › the-odin-project</p>
+                    </a>
+                </div>
+                <div class="result_info">
+                    <p><strong>The Odin Project</strong> was created to provide a complete path for students to go from zero to employed as web developers while working with other students along ...</p>
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="result_link">
+                    <a href="#">
+                        <h3>The Odin Project - Youtube</h3>
+                        <p class="site_address">https://www.youtube.com › channel</p>
+                    </a>
+                </div>
+                <div class="result_info">
+                    <p><strong>The Odin Project</strong> added 1 video to Favorites 5 years ago... for <strong>the Odin Project</strong>, a free online curriculum for learning web development (http://theodinproject.com) ...</p>
+                </div>
+            </div>
+
+            <div class="element">
+                <h2>Searches related to The Odin Project</h2>
+                <table class="related_searches" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="related">
+                            <a href="#"><h4>the odin project <em>review</em></h4></a>
+                        </td>
+                        <td class="related">
+                            <a href="#"><h4>the odin project <em>review 2018</em></h4></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="related">
+                            <a href="#"><h4>the odin project <em>vs freecodecamp</em></h4></a>
+                        </td>
+                        <td class="related">
+                            <a href="#"><h4>the odin project <em>vs codeacademy</em></h4></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="related">
+                            <a href="#"><h4>the odin project <em>review 2019</em></h4></a>
+                        </td>
+                        <td class="related">
+                            <a href="#"><h4>the odin project <em>discord</em></h4></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="related">
+                            <a href="#"><h4>the odin project <em>python</em></h4></a>
+                        </td>
+                        <td class="related">
+                            <a href="#"><h4>the odin project <em>javascript</em></h4></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>   
+
+        </div>
+
+        <!-- Right Side Knowledge Panel */ -->
+
+        <div id="knowledge-panel">
+
+            <div id="borderline2">
+                <div id="company-logo">
+                    <h1 id="c-name">The Odin Project</h1>
+                        <svg id="share">
+                            <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z">                            
+                            </path>
+                        </svg>
+                    <h5 id="cpany">Company</h4>
+                    <img id="TOPlogo" src="..\Google Replication\data\TOP.png">
+                </div>
+
+                <div id="weblink">
+                    <a href="TOP Website"><svg id="world">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path>
+                    </svg></a>
+                    <a href="TOP Website" id="kplink" class="klink">theodinproject.com</a>
+                </div>
+
+                <div id="c-info">
+                    <p class="c-info"><strong class="strong">Founded:</strong> 2013</p>
+                    <p class="c-info"><strong class="strong">Parent Organization:</strong> <a href="Thinkful Inc" class="klink">Thinkful, Inc.</a></p>
+                </div>
+
+                <div id="profiles">
+                    <h2 class="kpinfo">Profiles</h2>
+                    <div class="social">
+                        <a href="twitter" class="social1 klink">
+                            <img src="..\Google Replication\data\Twitter.png" id="twitter">
+                            <p class="klink">Twitter</p>
+                        </a>
+                        <a href="youtube" class="social1 klink">
+                            <img src="..\Google Replication\data\Youtube.png" id="youtube">
+                            <p class="klink">YouTube</p>
+                        </a>
+                        <a href="facebook" class="social1 klink">
+                            <img src="..\Google Replication\data\Facebook.png" id="facebook">
+                            <p class="klink">Facebook</p>
+                        </a>
+                        <a href="instagram" class="social1 klink">
+                            <img src="..\Google Replication\data\Instagram.png" id="instagram">
+                            <p class="klink">Instagram</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="pasf">
+                    <h2 class="kpinfo">People also search for</h2>
+                    <a href="view more" id="view-more" class="klink">View 5+ more</a>
+                    <div id="also">
+                        <a href="codecademy" class="klink" title="Codecademy">
+                            <img class="moreimg" src="..\Google Replication\data\codecademy.png">
+                            <p class="klink">Codecad...</p>
+                        </a>
+                        <a href="Codewars" class="klink" title="Codewars">
+                            <img class="moreimg" src="..\Google Replication\data\codewars.png">
+                            <p class="klink">Codewars</p>
+                        </a>
+                        <a href="edX" class="klink" title="edX">
+                            <img class="moreimg" src="..\Google Replication\data\edx.png">
+                            <p class="klink">edX</p>
+                        </a>
+                        <a href="coursera" class="klink" title="Cousera">
+                            <img class="moreimg" src="..\Google Replication\data\coursera.png">
+                            <p class="klink">Coursera</p>
+                        </a>
+                        <a href="khan academy" class="klink" title="Khan Academy">
+                            <img class="moreimg" src="..\Google Replication\data\khanacademy.png">
+                            <p class="klink">Khan Academy</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="botlink">
+                <a href="disclaimer" id="leftlink" class="klink">Disclaimer</a>
+                <a href="feedback" id="rightlink" class="klink">Feedback</a>
+            </div>
+
+            <div id="claimbord">
+                <svg id="shield-check" viewBox="0 0 24 24">
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"></path>
+                </svg>
+                <a href="claim" id="claim" class="klink">Claim this knowledge panel</a>
+            </div>
+        </div>
+
+    </div>
+
+<!-- Bottom Info and Page Numbers -->
+
+    <footer>
+
+        <table id="g-links">
+            <td id="G">
+                <span id="g-image"></span>
+            </td>
+            <td class="glinks">
+                <a href="#">
+                    <span id="red"></span>
+                    1
+                </a>
+            </td>
+            <td class="glinks">
+                <a href="#" class="bluelink">
+                    <span class="yellow"></span>
+                    2
+                </a>
+            </td>
+            <td class="glinks">
+                <a href="#" class="bluelink">
+                    <span class="yellow"></span>
+                    3
+                </a>
+            </td>
+            <td class="glinks">
+                <a href="#" class="bluelink">
+                    <span class="yellow"></span>
+                    4
+                </a>
+            </td>
+            <td class="glinks">
+                <a href="#" class="bluelink">
+                    <span class="yellow"></span>
+                    5
+                </a>
+            </td>
+            <td class="glinks">
+                <a href="#" class="bluelink">
+                    <span class="yellow"></span>
+                    6
+                </a>
+            </td>
+            <td class="glinks">
+                <a href="#" class="bluelink">
+                    <span class="yellow"></span>
+                    7
+                </a>
+            </td>
+            <td class="glinks">
+                <a href="#" class="bluelink">
+                    <span class="yellow"></span>
+                    8
+                </a>
+            </td>
+            <td class="glinks">
+                <a href="#" class="bluelink">
+                    <span class="yellow"></span>
+                    9
+                </a>
+            </td>
+            <td class="glinks">
+                <a href="#" class="bluelink">
+                    <span class="yellow"></span>
+                    10
+                </a>
+            </td>
+            <td class="glinks next">
+                <a href="#" class="bluelink">
+                    <span id="end-logo"></span>
+                    Next
+                    </a>
+            </td>
+        </table>
+
+        <div id="footer">
+            <div id="location">
+                <p><strong id="loc-emp">Earth, The Solar System, Orion Arm, Milky Way, The Universe</strong> - <span id="device">From your device</span> - <a class="b-links" id="learnmore" href="precise-location">Use precise location</a> - <a class="b-links" href="learn more">Learn more</a></p>
+            </div>
+            <div id="b-links">
+                <table>
+                    <td>
+                        <a class="b-links" href="help">Help</a>
+                    </td>
+                    <td>
+                        <a class="b-links" href="Send Feddback">Send Feedback</a>
+                    </td>
+                    <td>
+                        <a class="b-links" href="Privacy">Privacy</a>
+                    </td>
+                    <td>
+                        <a class="b-links" href="Terms">Terms</a>
+                    </td>
+                </table>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
